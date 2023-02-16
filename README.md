@@ -23,9 +23,9 @@ The Jupyter Notebooks cover the following Python-related topics:
 
 Planned future additions/updates include:
 <ul>
-  <li>Adding labs for a second-semester undergraduate course in synoptic meteorology (frontogenesis/frontolysis, quasi-geostrophic theory, isentropic analysis, isentropic potential vorticity).</li>
-  <li>Reworking each lab so that it is fully self-contained in Jupyter Notebooks.</li>
-  <li>Reworking labs which reference local data to reference cloud-based data.</li>
+  <li>Adding labs for a second-semester undergraduate course in synoptic meteorology (frontogenesis/frontolysis, quasi-geostrophic theory, isentropic analysis, isentropic potential vorticity). We expect to make these available in mid-2023.</li>
+  <li>Reworking each lab so that it is fully self-contained in Jupyter Notebooks. Some current lab elements, such as asking students to circle a feature or region on a map that is provided to them or that they create, are not well-suited to the current functionality of Jupyter Notebooks.</li>
+  <li>Reworking labs which reference local data to reference cloud-based data. Since we use <a href="https://tljh.jupyter.org/en/latest/">The Littlest JupyterHub</a> for our local JupyterHub instance, we're currently stuck on Python 3.7. This has prevented us from updating the Notebooks to use the <a href="https://github.com/blaylockbk/Herbie">herbie</a> package's remote GRIB access and subsetting tools.</li>
 </ul>
 
 The primary packages used by these Jupyter Notebooks are cartopy, MetPy, siphon, and xarray. The JupyterHub on which these notebooks were first deployed runs Python 3.7.12, cartopy 0.20.0, MetPy 1.2.0, siphon 0.9, and xarray 0.20.2. It is likely that these notebooks will work with newer versions of each package with few, if any, changes.
