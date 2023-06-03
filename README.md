@@ -3,6 +3,8 @@
 
 This repository contains a set of twelve labs designed for a first-semester undergraduate course in synoptic meteorology, focusing on introductory concepts, atmospheric balances, kinematic properties, atmospheric stability, and fronts, jets, and cyclones. Each lab is currently provided in Microsoft Word format, and each is supported by one or more Jupyter Notebooks. The Jupyter Notebooks introduce students to accessing and plotting meteorological data (surface and upper-air observations, skew-T ln-p diagrams, and model data) using modern Python tools.
 
+A set of ten labs designed for a second-semester undergraduate course in synoptic meteorology, focusing on quasi-geostrophic theory, isentropic analysis principles, and isentropic potential vorticity, <a href="https://github.com/evans36/SynopticMet2/"><b>is also available on Github</b></a>. Just as their scientific concepts build on this first-semester course's concepts, so too do their Python concepts. Thus, we recommend beginning the second-semester labs only after completing these labs.
+
 If you are hosting a JupyterHub, or if your students have Jupyter Notebook installed locally (e.g., as part of an Anaconda Python distribution), then <a href="https://github.com/jupyterhub/nbgitpuller" target="_blank"><b>nbgitpuller</b></a> can be used to generate a link that downloads this repository into a working Notebook environment.
 
 The Jupyter Notebooks cover the following Python-related topics:
